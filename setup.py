@@ -32,7 +32,7 @@ from setuptools import setup, find_packages
 
 setup(
     # replace "mydatabase" by the name of your database
-    name='pyannote.db.callhome',
+    name='pyannote.db.callhomesre',
 
     # replace "MyDatabase" by the name of your database
     description="CallHome plugin for pyannote-database",
@@ -47,7 +47,7 @@ setup(
 
     # replace "MyDatabase" by the new name of MyDatabase directory
     package_data={
-        'CallHome': [
+        'CallHomeSRE': [
             'data/*',
         ],
     },
@@ -71,6 +71,6 @@ setup(
     # replace MyDatabase by the name of your database (using CamelCase)
     entry_points="""
         [pyannote.database.databases]
-        CallHome=CallHome:CallHome
+        CallHomeSRE=CallHomeSRE:CallHomeSRE
     """
 )

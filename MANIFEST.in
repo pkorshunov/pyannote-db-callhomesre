@@ -1,2 +1,2 @@
 include versioneer.py
-include CallHome/_version.py
+include CallHomeSRE/_version.py
